@@ -2,7 +2,7 @@
   "name": "Python & Docker Development Container",
   "image": "mcr.microsoft.com/vscode/devcontainers/python:latest",
   "features": {
-    "docker": "latest"
+    "ghcr.io/devcontainers/features/docker-in-docker": "latest"
   },
   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y docker.io"
 }
