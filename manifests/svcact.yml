@@ -3,6 +3,6 @@ kind: ServiceAccount
 metadata:
   annotations:
     azure.workload.identity/client-id: "3bfe2ff6-cd4d-42c1-8e3f-c3b387f2df8c"
-  name: "svc-dappr"
-  namespace: "default"
+  name: svc-dappr
+  namespace: default
   
