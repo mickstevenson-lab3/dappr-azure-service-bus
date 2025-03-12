@@ -1,1 +1,12 @@
-
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: servicebus-pubsub
+spec:
+  type: pubsub.azure.servicebus
+  version: v1
+  metadata:
+  - name: namespaceName
+    value: "aks-dappr-test.servicebus.windows.net"
+scopes:
+- dapr-app
