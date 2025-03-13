@@ -17,3 +17,7 @@ az identity federated-credential create \
     --subject system:serviceaccount:"default":"svc-dappr" \
     --audience api://AzureADTokenExchange 
 ```
+
+
+
+curl -X POST http://10.244.1.106:8080/publish -H "Content-Type: application/json" -d '{"message": "Hello, Dapr!"}'
